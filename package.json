@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-unit-testing-in-depth",
+  "version": "1.0.0",
+  "description": "​A focused, in-depth look into Node.js unit testing, from absolute beginner to very advanced.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karljosebuena/nodejs-unit-testing-in-depth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karljosebuena/nodejs-unit-testing-in-depth/issues"
+  },
+  "homepage": "https://github.com/karljosebuena/nodejs-unit-testing-in-depth#readme"
+}
