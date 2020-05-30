@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/karljosebuena/nodejs-unit-testing-in-depth/issues"
   },
-  "homepage": "https://github.com/karljosebuena/nodejs-unit-testing-in-depth#readme"
+  "homepage": "https://github.com/karljosebuena/nodejs-unit-testing-in-depth#readme",
+  "dependencies": {
+    "colors": "1.4.0"
+  }
 }
