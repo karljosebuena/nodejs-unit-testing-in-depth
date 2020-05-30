@@ -15,8 +15,6 @@ describe('file to be tested', () => {
         afterEach(() => {
             console.log('=====afterEach'.yellow)
         });
-
-
         it('should do something', () => {
             assert.equal(1, 1);
         });
@@ -24,5 +22,9 @@ describe('file to be tested', () => {
             assert.deepEqual({name: 'karl'}, {name: 'karl'})
         });
         it('this is a pending test');
-    })
+    });
+
+    context('another function to be tested', () => {
+        it('another pending test');
+    });
 });
