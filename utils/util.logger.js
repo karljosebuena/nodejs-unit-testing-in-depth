@@ -14,3 +14,12 @@ exports.beforeEachLogger = () => {
 exports.afterEachLogger = () => {
     console.log('=====after each test block====='.blue)
 }
+
+exports.successLogger = () => {
+
+}
+
+exports.errorLogger = (error) => {
+    console.log('Error: Check below error message'.bgRed);
+    console.log(error)
+}
