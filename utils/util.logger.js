@@ -1,22 +1,22 @@
 
 exports.beforeLogger = () => {
-    console.log('=====BEFORE BLOCK====='.yellow);
+    console.log('------BEFORE BLOCK------'.yellow);
 }
 
 exports.afterLogger = () => {
-    console.log('=====AFTER BLOCK====='.yellow);
+    console.log('------AFTER BLOCK------'.yellow);
 }
 
 exports.beforeEachLogger = () => {
-    console.log('=====before each test block====='.blue)
+    console.log('***before each test block***'.blue)
 }
 
 exports.afterEachLogger = () => {
-    console.log('=====after each test block====='.blue)
+    console.log('***after each test block***'.blue)
 }
 
 exports.successLogger = () => {
-
+    // TODO
 }
 
 exports.errorLogger = (error) => {
