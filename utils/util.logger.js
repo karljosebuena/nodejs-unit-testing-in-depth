@@ -15,6 +15,21 @@ exports.afterEachLogger = () => {
     console.log('***after each test block***'.blue)
 }
 
+exports.beforeAfter = (before, after, beforeEach, afterEach) => {
+    before(() => {
+        this.beforeLogger()
+    })
+    after(() => {
+        this.afterLogger()
+    })
+    beforeEach(() => {
+        this.beforeEachLogger()
+    })
+    afterEach(() => {
+        this.afterEachLogger()
+    })
+}
+
 exports.successLogger = () => {
     // TODO
 }
