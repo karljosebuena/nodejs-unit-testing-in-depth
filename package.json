@@ -18,6 +18,7 @@
   "homepage": "https://github.com/karljosebuena/nodejs-unit-testing-in-depth#readme",
   "dependencies": {
     "colors": "1.4.0",
+    "crypto": "1.0.1",
     "mongoose": "5.9.16"
   },
   "devDependencies": {
