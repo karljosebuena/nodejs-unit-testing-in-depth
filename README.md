@@ -18,4 +18,4 @@ You should have some node experience, you don't need to be an expert, but you sh
     All nodejs developers, or devs who wish to learn more about unit testing using node.
 
 ## Disclaimer
-I did not created the project on my own, I took the course in Udemy lectured by Murtez Alrohani(https://solaireresortcasino.udemy.com/course/nodejs-unit-testing-in-depth/learn/lecture/10200794#overview)
+I did not created the project on my own, I took the course in Udemy lectured by Murtez Alrohani(https://www.udemy.com/course/nodejs-unit-testing-in-depth/)
